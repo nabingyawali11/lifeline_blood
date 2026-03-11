@@ -3,10 +3,10 @@ import dotenv from "dotenv";
 import mongoose from "mongoose";
 import cors from "cors";
 
-import testRoutes from "../routes/testRoutes.js";
-import eventRoutes from "../routes/eventRoutes.js";
-import userRoutes from "../routes/userRoutes.js";
-import adminRoutes from "../routes/adminRoutes.js";
+import testRoutes from "../apiRoutes/testRoutes.js";
+import eventRoutes from "../apiRoutes/eventRoutes.js";
+import userRoutes from "../apiRoutes/userRoutes.js";
+import adminRoutes from "../apiRoutes/adminRoutes.js";
 
 dotenv.config();
 

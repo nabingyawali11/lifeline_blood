@@ -2,10 +2,10 @@ import express from "express";
 import dotenv from "dotenv";
 import mongoose from "mongoose";
 import cors from "cors";
-import testRoutes from "./routes/testRoutes.js";
-import eventRoutes from "./routes/eventRoutes.js";
-import userRoutes from "./routes/userRoutes.js";
-import adminRoutes from "./routes/adminRoutes.js";
+import testRoutes from "../routes/testRoutes.js";
+import eventRoutes from "../routes/eventRoutes.js";
+import userRoutes from "../routes/userRoutes.js";
+import adminRoutes from "../routes/adminRoutes.js";
 
 dotenv.config();
 const app = express();
